@@ -2,9 +2,9 @@ package Sample;
 
 public class helloworld {
 
-	public static void main(String args[])
-	   {
-	      System.out.println("Hello World - Kamal");
-	      System.out.println("Hello - Kamalakar");
-	   }
-}
+	public static void main(String[] args) {
+	    
+	    Greeter greeter = new Greeter();
+	    System.out.println(greeter.sayHello());
+	  }
+	}
